@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,64 +6,78 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Navigation */
+/* Navigation Bar */
 header {
-    background: #2c3e50;
+    background-color: #2c3e50;
     color: white;
-    padding: 15px 0;
+    padding: 10px 0;
     text-align: center;
 }
 
-nav ul {
+.menu ul {
     list-style: none;
     padding: 0;
 }
 
-nav ul li {
+.menu ul li {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
+.menu ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 50px;
-    background: #34495e;
+    background-color: #34495e;
     color: white;
+    padding: 50px 20px;
 }
 
-.hero img {
-    width: 120px;
+.hero img.profile-pic {
+    width: 100px;
     border-radius: 50%;
 }
 
+/* Featured Projects */
 .projects {
-    padding: 30px;
-    text-align: center;
+    display: flex;
+    padding: 40px 20px;
+}
+
+.left-sidebar {
+    width: 20%;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .project-container {
     display: flex;
-    justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
 }
 
 .project {
     background: white;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
 
 .project img {
     width: 100%;
-    border-radius: 5px;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 10px;
 }
 
 .btn {
@@ -75,10 +90,17 @@ nav ul li a {
     border-radius: 5px;
 }
 
+/* Content Page Styling */
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    padding: 20px;
-    background: #2c3e50;
+    background-color: #2c3e50;
     color: white;
+    padding: 10px;
     margin-top: 20px;
 }
