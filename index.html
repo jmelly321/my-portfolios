@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta Information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
@@ -11,31 +10,32 @@
     <!-- Navigation Section -->
     <header>
         <nav>
-            <div class="nav-container">
-                <div class="logo">My Portfolio</div>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+            <div class="top-bar">
+                <p>Data Analyst | Big Data | Business Intelligence</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    
+
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Showcasing my expertise in data analysis, big data, and visualization.</p>
-        </div>
+    <section class="hero">
+        <img src="profile.png" alt="Profile Picture" class="profile-pic">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing my expertise in data analysis, big data, and visualization.</p>
     </section>
-    
+
     <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2>Featured Projects</h2>
+    <section class="projects">
+        <div class="left-sidebar">
+            <h2>Featured Projects</h2>
+        </div>
         <div class="project-container">
-            
             <!-- Project 1 -->
             <div class="project">
                 <img src="hadoop-logo.png" alt="Hadoop">
@@ -43,7 +43,7 @@
                 <p>Analyzed employee data to gain insights into performance, salary distribution, and department-wise headcount.</p>
                 <a href="#" class="btn">View Details</a>
             </div>
-            
+
             <!-- Project 2 -->
             <div class="project">
                 <img src="tableau-logo.png" alt="Tableau">
@@ -53,8 +53,8 @@
             </div>
         </div>
     </section>
-    
-    <!-- Footer Section -->
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025 My Portfolio | Designed for GitHub Pages</p>
     </footer>
