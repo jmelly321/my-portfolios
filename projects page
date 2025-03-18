@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <header>
+        <nav>
+            <div class="top-bar">
+                <p>Data Analyst | Big Data | Business Intelligence</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="left-sidebar">
+            <h2>My Portfolio Projects</h2>
+        </div>
+        <div class="project-container">
+            <!-- Fraud Detection Project -->
+            <div class="project">
+                <img src="fraud-detection.png" alt="Fraud Detection">
+                <h3>Fraud Detection Using Random Forest Classifier</h3>
+                <p>Developed a fraud detection system leveraging machine learning to identify fraudulent transactions.</p>
+                <a href="fraud-detection.html" class="btn">View Details</a>
+            </div>
+
+            <!-- Penetration Testing Project -->
+            <div class="project">
+                <img src="kali-linux.png" alt="Penetration Testing">
+                <h3>Simulated Penetration Testing with Kali Linux</h3>
+                <p>Executed ethical hacking techniques to test vulnerabilities in a controlled environment.</p>
+                <a href="penetration-testing.html" class="btn">View Details</a>
+            </div>
+
+            <!-- Grocery App Project -->
+            <div class="project">
+                <img src="grocery-app.png" alt="Grocery App">
+                <h3>Fruit Grocery App Using .NET MAUI</h3>
+                <p>Developed a multi-platform grocery shopping app for an enhanced user experience.</p>
+                <a href="grocery-app.html" class="btn">View Details</a>
+            </div>
+
+            <!-- Power BI Open Assignment -->
+            <div class="project">
+                <img src="powerbi.png" alt="Power BI">
+                <h3>Power BI Open Assignment</h3>
+                <p>Analyzed YouTube subscribers' data and built insightful dashboards using Power BI.</p>
+                <a href="powerbi-open.html" class="btn">View Details</a>
+            </div>
+
+            <!-- Power BI Sales Analysis -->
+            <div class="project">
+                <img src="sales-analysis.png" alt="Power BI Sales Analysis">
+                <h3>Power BI Sales Analysis</h3>
+                <p>Created dynamic sales dashboards with DAX measures to provide business insights.</p>
+                <a href="powerbi-sales.html" class="btn">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Portfolio | Designed for GitHub Pages</p>
+    </footer>
+</body>
+</html>
