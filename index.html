@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - My Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,37 +24,72 @@
         </nav>
     </header>
 
-    <!-- Projects Page -->
-    <section class="projects-page">
-        <h1>My Projects</h1>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Jamol the Data Analyst</h1>
+        <img src="profile.png" alt="Profile Picture" class="profile-pic">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing my expertise in data analysis, big data, and visualization.</p>
+    </section>
 
-        <!-- Project 1 -->
-        <section id="hadoop-analysis">
-            <h2>Employee Data Analysis using Hive</h2>
-            <img src="hadooplogo.png" alt="Hadoop Project">
-            <p>In this project, I used Apache Hive to analyze large-scale employee datasets. The insights extracted include:</p>
-            <ul>
-                <li>Employee performance trends</li>
-                <li>Salary distribution across departments</li>
-                <li>Turnover rates and hiring patterns</li>
-            </ul>
-            <!-- Link to your actual project (Update this URL to where your actual project is hosted) -->
-            <a href="your_project_link_here" class="btn">View Project</a>
-        </section>
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="left-sidebar">
+            <h2>Featured Projects</h2>
+        </div>
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="hadooplogo.png" alt="Hadoop">
+                <h3>Employee Data Analysis using Hive</h3>
+                <p>Analyzed employee data to gain insights into performance, salary distribution, and department-wise headcount.</p>
+                <a href="projects.html#hadoop-analysis" class="btn">View Details</a>
+            </div>
 
-        <!-- Project 2 -->
-        <section id="tableau-analysis">
-            <h2>Merchandise Sales Analysis Using Tableau</h2>
-            <img src="tableau-logo.png" alt="Tableau Project">
-            <p>This project involved creating interactive dashboards in Tableau to visualize merchandise sales trends, including:</p>
-            <ul>
-                <li>Sales performance by region</li>
-                <li>Revenue trends over time</li>
-                <li>Customer segmentation insights</li>
-            </ul>
-            <!-- Link to your Tableau Project -->
-            <a href="https://public.tableau.com/views/SalesPerState_17423486938320/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="btn">View Project</a>
-        </section>
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="tableau-logo.png" alt="Tableau">
+                <h3>Merchandise Sales Analysis Using Tableau</h3>
+                <p>Developed dashboards to visualize global merchandise sales trends.</p>
+                <a href="projects.html#tableau-analysis" class="btn">View Details</a>
+            </div>
+
+            <!-- New Projects -->
+            <div class="project">
+                <img src="fraud-detection.png" alt="Fraud Detection">
+                <h3>Fraud Detection Using Random Forest</h3>
+                <p>Built a machine learning model to detect fraudulent transactions using Random Forest Classifier.</p>
+                <a href="projects.html#fraud-detection" class="btn">View Details</a>
+            </div>
+
+            <div class="project">
+                <img src="penetration-testing.png" alt="Penetration Testing">
+                <h3>Simulated Penetration Testing with Kali Linux</h3>
+                <p>Performed ethical hacking simulations to identify system vulnerabilities using Kali Linux.</p>
+                <a href="projects.html#penetration-testing" class="btn">View Details</a>
+            </div>
+
+            <div class="project">
+                <img src="fruit-grocery.png" alt="Fruit Grocery App">
+                <h3>Fruit Grocery App Using .NET MAUI</h3>
+                <p>Developed a cross-platform grocery shopping app with .NET MAUI and Azure SQL.</p>
+                <a href="projects.html#fruit-grocery" class="btn">View Details</a>
+            </div>
+
+            <div class="project">
+                <img src="powerbi-open.png" alt="Power BI Analysis">
+                <h3>Power BI Open Assignment</h3>
+                <p>Analyzed YouTube subscribers data and created insightful visualizations using Power BI.</p>
+                <a href="projects.html#powerbi-open" class="btn">View Details</a>
+            </div>
+
+            <div class="project">
+                <img src="powerbi-sales.png" alt="Power BI Sales Analysis">
+                <h3>Power BI Sales Analysis</h3>
+                <p>Designed Power BI dashboards to visualize sales performance and profitability trends.</p>
+                <a href="projects.html#powerbi-sales" class="btn">View Details</a>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
